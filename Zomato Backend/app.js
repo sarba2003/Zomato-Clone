@@ -34,7 +34,7 @@ app.use('/api/payment/', paymentRoute);
 app.use('/auth', authRoute);
 
 // DB
-const MongoAtlas = "mongodb+srv://sarba2003:tyWwRnVEVoCzsUrT@cluster0.vwu6gla.mongodb.net/Zomato-Backend?retryWrites=true&w=majority&appName=Cluster0"
+const MongoAtlas = "mongodb+srv://username:<password>@cluster0.vwu6gla.mongodb.net/Zomato-Backend?retryWrites=true&w=majority&appName=Cluster0"
 mongoose.connect(MongoAtlas)   
 
     .then(res => {
